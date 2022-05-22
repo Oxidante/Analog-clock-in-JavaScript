@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #091921;
+}
+
+.clock {
+	width: 350px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(/img/clock.png),
+	url(/img/js.png),
+	radial-gradient(circle, rgb(37, 73, 90) 0%, rgb(25, 48, 60) 11%, rgba(9, 25, 33, 1) 38%);
+	background-size: cover;
+	box-shadow: 0 -15px 15px rgba(134, 134, 134, 0.35),
+	inset 0 -15px 15px #191919,
+	0 15px 15px rgba(134, 134, 134, 0.35),
+	inset 0 15px 15px #191919;
+	border-radius: 50%;
+}
